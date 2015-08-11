@@ -995,7 +995,7 @@ h1 {
   font-family: Lato, Arial, Helvetica, sans;
   font-size: 83px;
   line-height: 70px;
-  color: #0070BD;
+  color: #00c0e3;
   font-weight: 900;
   text-transform: uppercase; }
 
@@ -1003,7 +1003,7 @@ h2 {
   font-family: Lato, Arial, Helvetica, sans;
   font-size: 30px;
   line-height: 1.4;
-  color: #0070BD;
+  color: #00c0e3;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center; }
@@ -1147,37 +1147,6 @@ section {
 .how-it-works h3 {
   margin-top: 35px; }
 
-footer {
-  background: #333333;
-  padding: 40px 0;
-  color: #fff; }
-  footer a, footer span {
-    color: #fff;
-    font-weight: 400; }
-    footer a i, footer span i {
-      font-size: 1.4em !important;
-      font-style: normal;
-      font-weight: 700;
-      margin-right: 4px; }
-  footer .social {
-    margin: 30px 0; }
-    footer .social a {
-      color: #4D4D4D;
-      padding: 0 10px;
-      -o-transition: color 0.3s ease 0s;
-      -webkit-transition: color 0.3s ease 0s;
-      -moz-transition: color 0.3s ease 0s;
-      -ms-transition: color 0.3s ease 0s;
-      transition: color 0.3s ease 0s; }
-      footer .social a:hover {
-        color: #fff; }
-  footer .copy {
-    font-size: 14px;
-    line-height: 25px;
-    color: #939399; }
-  footer .email {
-    margin-right: 20px; }
-
 .whats-in-it ul {
   list-style: none;
   padding: 0; }
@@ -1197,7 +1166,7 @@ footer {
       left: 0;
       width: 13px;
       height: 1px;
-      background: #0070BD; }
+      background: #00c0e3; }
   @media all and (max-width: 991px) {
     .whats-in-it ul li {
       padding: 0;
@@ -1207,11 +1176,11 @@ footer {
         content: none; } }
 
 .box {
-  border: 1px solid #0070BD;
+  border: 1px solid #00c0e3;
   padding: 25px;
   font-size: 25px;
   line-height: 35px;
-  color: #0070BD;
+  color: #00c0e3;
   font-family: Lato, Arial, Helvetica, sans;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -1290,6 +1259,43 @@ header {
       -ms-transition: left 0.3s ease 0s;
       transition: left 0.3s ease 0s; } }
 
+footer {
+  background: #333333;
+  padding: 40px 0;
+  color: #fff; }
+  footer a, footer span {
+    color: #fff;
+    font-weight: 400; }
+    footer a i, footer span i {
+      font-size: 1.4em !important;
+      font-style: normal;
+      font-weight: 700;
+      margin-right: 4px; }
+  footer .social-ctn {
+    margin: 30px 0;
+    position: relative; }
+  footer .social a {
+    color: #4D4D4D;
+    padding: 0 10px;
+    -o-transition: color 0.3s ease 0s;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease 0s;
+    -ms-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s; }
+    footer .social a:hover {
+      color: #fff; }
+  footer .at-share-tbx-element {
+    margin: 20px 0;
+    text-align: center; }
+    footer .at-share-tbx-element a {
+      float: none !important; }
+  footer .copy {
+    font-size: 14px;
+    line-height: 25px;
+    color: #939399; }
+  footer .email {
+    margin-right: 20px; }
+
 .masthead {
   position: relative;
   padding: 0; }
@@ -1300,7 +1306,7 @@ header {
     left: 0;
     width: 100%;
     height: 12px;
-    background: #0070BD;
+    background: #00c0e3;
     mix-blend-mode: multiply; }
   .masthead .ctn {
     height: 480px; }
@@ -1312,26 +1318,27 @@ header {
       background-size: cover;
       font-family: Nevis, Arial, Helvetica, sans;
       font-size: 24px;
-      color: #0070BD;
+      color: #00c0e3;
       letter-spacing: 0.1em;
       text-transform: uppercase; }
       .masthead .ctn > div span {
         position: absolute;
         top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
+        left: 10px;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%); }
       @media all and (max-width: 991px) {
         .masthead .ctn > div {
           display: none; } }
   .masthead h1 {
     position: absolute;
-    bottom: 0;
+    bottom: 36%;
     left: 50%;
     width: 100%;
     margin: 0;
+    line-height: 77px;
     opacity: 1;
     -o-transition: opacity 2s ease 0s;
     -webkit-transition: opacity 2s ease 0s;
@@ -1399,7 +1406,7 @@ header {
     font-family: FontAwesome;
     font-size: 22px;
     margin-right: 8px;
-    color: #0070BD;
+    color: #00c0e3;
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -1464,7 +1471,7 @@ header {
   margin-bottom: 60px; }
 
 .cbp-spmenu {
-  background: #0070BD;
+  background: #00c0e3;
   position: fixed;
   top: 0;
   z-index: 1;

@@ -35,7 +35,7 @@ $(document).ready(function(){
     });
 
     //override anchor links
-    $('a[href^=#]').on('click', function(e){
+    $('header a[href^=#]').on('click', function(e){
         e.preventDefault();
 
         var element = $('#'+$(this).attr("href").split("#")[1]);
