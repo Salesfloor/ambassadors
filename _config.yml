@@ -1,0 +1,4 @@
+baseurl: ""
+url: "http://ambassadors.salesfloor.net"
+
+markdown: kramdown
