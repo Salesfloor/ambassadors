@@ -564,6 +564,11 @@ p {
     background: url("../images/stuartweitzman.jpg") no-repeat center center;
     background-size: cover;
 }
+
+.header.thankpage .nav {
+    display: none !important;
+}
+
 .header .overlay {
     height: 650px;
 }
