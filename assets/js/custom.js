@@ -7,7 +7,6 @@
 =================================== */
 
 function showRegisterForm(){
-    "use strict";
     $('.loginBox').fadeOut('fast',function(){
         $('.registerBox').fadeIn('fast');
         $('.login-footer').fadeOut('fast',function(){
@@ -21,7 +20,6 @@ function showRegisterForm(){
 
 
 function showLoginForm(){
-    "use strict";
     $('#loginModal .registerBox').fadeOut('fast',function(){
         $('.loginBox').fadeIn('fast');
         $('.register-footer').fadeOut('fast',function(){
@@ -36,14 +34,12 @@ function showLoginForm(){
 
 
 function openLoginModal(){
-    "use strict";
     showLoginForm();
     $('#loginModal').modal('show');
 }
 
 
 function openRegisterModal(){
-    "use strict";
     showRegisterForm();
     $('#loginModal').modal('show');
 }
@@ -53,7 +49,6 @@ function openRegisterModal(){
    SCROLL NAVBAR
 =================================== */
 $(window).scroll(function(){
-    "use strict";
     var b = $(window).scrollTop();
     if( b > 60 ){
         $(".navbar").addClass("is-scrolling");
@@ -67,12 +62,8 @@ $(window).scroll(function(){
    TYPING EFFECT
 =================================== */
 (function($) {
-
-    "use strict";
-
     $('[data-typer-targets]').typer();
     $.typer.options.clearOnHighlight=false;
-
 })(jQuery);
 
 
@@ -80,11 +71,7 @@ $(window).scroll(function(){
    DATA SPY FOR ACTIVE SECTION                 
 =================================== */
 (function($) {
-    
-    "use strict";
-    
     $('body').attr('data-spy', 'scroll').attr('data-target', '.navbar-fixed-top').attr('data-offset', '11');
-
 })(jQuery);
 
 
@@ -92,16 +79,12 @@ $(window).scroll(function(){
    HIDE MOBILE MENU AFTER CLICKING 
 =================================== */
 (function($) {
-    
-    "use strict";
-    
     $('.nav.navbar-nav li a').click(function () {
         var $togglebtn = $(".navbar-toggle");
         if (!($togglebtn.hasClass("collapsed")) && ($togglebtn.is(":visible"))){
             $(".navbar-toggle").trigger("click");
         }
     });
-
 })(jQuery);
 
 
@@ -114,11 +97,6 @@ $(window).scroll(function(){
 /* ==================================================== */
 
 $(document).ready(function() {
-
-
-"use strict";
-
-
 
 /* =================================
     WOW ANIMATIONS                   
