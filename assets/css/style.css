@@ -48,6 +48,10 @@ body {
     background-color: #ffffff;
 }
 
+.center {
+    text-align: center;
+}
+
 .main-wrapper {
     overflow: hidden;
 }
